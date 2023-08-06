@@ -1,0 +1,118 @@
+/* Pagina 1 */
+
+*{
+    background-color: rgb(255, 255, 255);
+} 
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    overflow-x: hidden
+
+}
+#nombre{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 7px;
+}
+
+#descripcion{
+    font-weight:lighter;
+    text-align: center;
+    color: rgb(59, 88, 59);
+}
+    
+p{
+    margin-top: 0%;
+    
+}
+img {
+    margin-top: 5%;
+   width: 20%;
+   height: 20%; 
+} 
+.button-container {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 33%;
+}
+
+
+a.button {
+    color:black;
+    display: inline-block;
+    margin-right: 35px;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    font-size: 100%;
+    border: rgb(255, 255, 255);
+    text-decoration: none;
+    
+  }
+
+a.button:hover{
+    color: rgb(59, 88, 59);
+}
+  
+/* Pagina 2 */
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+  
+.button2 {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  padding: 5px;
+  text-align: center;
+  font-size: 100%;
+  border: rgb(255, 255, 255);
+}
+
+.container2 .content {
+  display: flex;
+  align-items: center;
+}
+  
+.container2 img {
+  width: 30%;
+  margin-left: 60px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+  
+.container2 .parrafo {
+  margin-left: 90px; 
+  text-align: justify;/* Ajusta el margen izquierdo según tus necesidades */
+  text-indent: 20px; 
+}
+  
+.container2 h2 {
+  text-align: center; /* Centra el subtítulo */
+}
+
+.button-container2{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+}
+
+#inicio{
+  text-decoration: none;
+  color: black;
+}
+#inicio:hover{
+  color: rgb(59, 88, 59);
+}
+  
